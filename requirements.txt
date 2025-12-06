@@ -1,0 +1,11 @@
+torch
+torchvision
+ultralytics
+numpy
+opencv-python
+Pillow
+pyyaml
+coremltools
+pyyaml 
+Pillow 
+gradio 

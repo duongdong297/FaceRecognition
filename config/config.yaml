@@ -1,0 +1,14 @@
+# config/config.yaml
+system:
+  device: "cuda"
+  image_size: [112, 112]
+
+model:
+  yolo_path: "weights/yolov11n-face.pt"  
+  arcface_path: "weights/arcface_best_v2.pth"
+  threshold: 0.305 
+
+paths:
+  database: "database/embeddings/face_db.json"
+  raw_images: "database/raw_images" 
+  log_csv: 'database/access_log.csv'
